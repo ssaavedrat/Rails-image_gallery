@@ -14,6 +14,22 @@ Este es un proyecto que consiste en crear una galería de imágenes interactivas
 
 5. La información sobre la galería deberá estar como un elemento de tipo ancla que permita redirigir a los usuarios a dicha vista.
 
+## Pasos
+
+1. Crear el nuevo proyecto de rails
+
+    ```bash
+    rails new image_gallery
+    ```
+
+2. Crear el controlador `pages` y las vistas `index`, `description`
+
+    ```bash
+    rails g controller pages index description
+    ```
+
+3. 
+
 ## Instalación
 
 Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
