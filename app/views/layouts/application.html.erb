@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ImageGallery</title>
+    <title>Image Gallery</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+     <!-- Font Awesome (public CDN)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
-  <body>
+  <body class="is-preload-0 is-preload-1 is-preload-2">
+
     <%= yield %>
+
+    <%# Scripts %>
+    <%= javascript_include_tag "application"%>
+    <%= javascript_include_tag "jquery.min.js"%>
+    <%= javascript_include_tag "browser.min.js"%>
+    <%= javascript_include_tag "breakpoints.min.js"%>
+    <%= javascript_include_tag "main.js"%>
+
+
   </body>
 </html>
