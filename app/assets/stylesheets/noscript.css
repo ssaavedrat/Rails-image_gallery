@@ -6,13 +6,13 @@
 
 /* Main */
 
-	#main {
+	/* #main {
 		opacity: 1 !important;
 		right: 0 !important;
 	}
 
 	body:before {
-		/* content: 'Javascript is disabled :('; */
+		content: 'Javascript is disabled :(';
 		display: block;
 		position: absolute;
 		top: 50%;
@@ -26,4 +26,4 @@
 		text-align: center;
 		white-space: nowrap;
 		left: 0;
-	}
+	} */
