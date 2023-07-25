@@ -28,7 +28,21 @@ Este es un proyecto que consiste en crear una galería de imágenes interactivas
     rails g controller pages index description
     ```
 
-3. 
+3. Configurar routes.rb para que la ruta raíz sea `pages#index`.
+
+4. Mover los archivos CSS e Imágenes de la plantilla a las carpetas correspondientes en `app/assets`. 
+
+    > No olvidar incluir las imágenes en el directorio css de la plantilla.
+
+5. Mover los archivos JS a `app/javascript`.
+
+6. Editar el archivo `application.html.erb` para que incluya los archivos CSS (Font awesome) y JS de la plantilla.
+
+7. Editar el archivo `index.html.erb` para que incluya el código HTML de la plantilla.
+
+8. Editar el archivo `description.html.erb` para que incluya la información de la galería.
+
+**Opcional**: Incluir la gema `rails_live_reload` para que los cambios en los archivos se reflejen sin refrescar la página `localhost:3000`.
 
 ## Instalación
 
@@ -93,4 +107,4 @@ Este es un proyecto de desafío, por lo que actualmente no aceptamos contribucio
 
 ## Créditos
 
-La plantilla utilizada en este proyecto es proporcionada por [Nombre del Proveedor de la Plantilla] y está disponible en el siguiente enlace: [Enlace a la plantilla].
+La plantilla utilizada en este proyecto es proporcionada por [HTML5 UP](https://html5up.net/) y está disponible en el siguiente enlace: [Enlace a la plantilla](https://html5up.net/lens).
