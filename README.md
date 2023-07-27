@@ -1,6 +1,6 @@
 # Galería de Imágenes Interactivas - Desafío en Ruby on Rails
 
-Este es un proyecto que consiste en crear una galería de imágenes interactivas utilizando una plantilla HTML, CSS y JavaScript. El objetivo es integrar la plantilla en Ruby on Rails y agregar una nueva vista que muestre información sobre la galería.
+Este proyecto consiste en crear una galería de imágenes interactivas utilizando una plantilla HTML, CSS y JavaScript. El objetivo es integrar la plantilla en Ruby on Rails y agregar una nueva vista que muestre información sobre la galería.
 
 ## Requisitos
 
